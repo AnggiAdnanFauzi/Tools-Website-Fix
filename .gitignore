@@ -1,0 +1,90 @@
+# Environment and Secrets (CRITICAL: Never commit .env or secrets)
+.env
+.env.*
+*.env
+*.env.local
+*.env.production
+*.env.staging
+*.env.development
+!.env.example
+!*.env.example
+!*.env.*.example
+
+# Database & SQL Dumps
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+
+# Archives and Large Bundles
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build artifacts
+dist/
+dist-ssr/
+build/
+.next/
+public/build/
+public/hot/
+public/storage
+
+# Logs & Framework caches
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Laravel Storage & Cache
+storage/*.key
+storage/pail
+storage/logs/*
+!storage/logs/.gitignore
+storage/framework/cache/*
+!storage/framework/cache/.gitignore
+storage/framework/sessions/*
+!storage/framework/sessions/.gitignore
+storage/framework/views/*
+!storage/framework/views/.gitignore
+bootstrap/cache/*
+!bootstrap/cache/.gitignore
+.phpunit.cache/
+.phpunit.result.cache
+
+# IDE & Editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.fleet/
+.nova/
+.zed/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+auth.json
+Homestead.json
+Homestead.yaml
+
+# Subproject READMEs (contain sensitive credentials and demo accounts)
+*/README.md
+*/**/README.md
+TalentStream-main/README.md
+TalentStream-main/**/README.md
+financial_health-main/README.md
+financial_health-main/**/README.md
+!/README.md

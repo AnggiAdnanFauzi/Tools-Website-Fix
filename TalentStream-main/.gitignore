@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Secrets & Environments
+.env
+.env.*
+backend/.env
+backend/vendor
+
+# Frontend projects - build artifacts & dependencies
+frontend-user/node_modules
+frontend-user/dist
+frontend-user/.env
+frontend-admin/node_modules
+frontend-admin/dist
+frontend-admin/.env
+
+# Legacy frontend (deprecated - migrated to frontend-user/ and frontend-admin/)
+frontend/node_modules
+frontend/dist
+
+# Scratch scripts
+*.cjs
+*.py
+*.ps1
+*.bak
+
